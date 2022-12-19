@@ -157,7 +157,7 @@
       this.magazine.append('harga_majalah',this.formTodo.harga_majalah);
       this.magazine.append('jumlah_majalah',this.formTodo.jumlah_majalah);
 
-      var url= this.$api + '/majalah/'
+      var url= this.$api + '/majalah'
       this.load = true;
       this.$http.post(url, this.magazine, {
         headers: {

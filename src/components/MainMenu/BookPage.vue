@@ -151,7 +151,7 @@
       this.book.append('harga_buku',this.formTodo.harga_buku);
       this.book.append('jumlah_buku',this.formTodo.jumlah_buku);
 
-      var url= this.$api + '/buku/'
+      var url= this.$api + '/buku'
       this.load = true;
       this.$http.post(url, this.book, {
         headers: {
