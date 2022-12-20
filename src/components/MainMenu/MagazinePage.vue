@@ -1,14 +1,14 @@
 <template>
     <v-main class="Magazine-lists">
-      <v-card>
+      <v-card color="blue">
         <v-list-item>
           <v-list-item-avatar>
             <img
-              src=https://png.pngtree.com/template/20190316/ourmid/pngtree-books-logo-image_79143.jpg alt="John"/>
+              src=https://images.assetsdelivery.com/compings_v2/macro1/macro11905/macro1190507244.jpg alt="John"/>
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title class="headline">Magazine List</v-list-item-title>
-            <v-list-item-subtitle>You can add,remove,and edit your magazine list</v-list-item-subtitle>
+            <v-list-item-title class="headline white--text">Magazine List</v-list-item-title>
+            <v-list-item-subtitle class="white--text">You can add,remove,and edit your magazine list</v-list-item-subtitle>
           </v-list-item-content>
           <v-spacer></v-spacer>
           <v-btn color="primary" dark @click="dialog = true"> Add Magazine </v-btn>

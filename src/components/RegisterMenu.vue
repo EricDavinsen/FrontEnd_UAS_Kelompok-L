@@ -58,11 +58,16 @@
                     <v-btn @click="clear" class="yellow green--text mr-3 mt-3"
                       >Clear
                     </v-btn>
+                  </v-layout>
 
+                  <v-layout>
+                    <h3 class="mt-5">Back to home menu?</h3>
+                  </v-layout>
+                  
+                  <v-layout>
                     <v-btn @click="home" class="blue darken-3 white--text mt-3"
                       >Home
                     </v-btn>
-
                   </v-layout>
                 </v-form>
               </div>
@@ -142,5 +147,6 @@ export default {
 .bg{
   background-image: url('https://img.freepik.com/premium-vector/bookstore-shop-exterior_169241-3291.jpg?w=2000');
   height: 100vh!important;
+  background-size: cover;
 }
 </style>

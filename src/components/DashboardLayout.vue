@@ -19,9 +19,10 @@
             tag="router-link"
             :to="item.to"
             >
-                <v-list-item-content>
-                    <v-list-item.title>{{ item.title }}</v-list-item.title>
-                </v-list-item-content>
+                <v-list-item-contehnt>
+                    <v-icon>{{item.icon}}</v-icon>
+                    <h>{{ item.title }}</h>
+                </v-list-item-contehnt>
             </v-list-item>
         </v-list>
     </v-navigation-drawer>
@@ -49,9 +50,9 @@
                 drawer: false,
                 group: null,
                 items: [
-                    { title: "Dashboard", to:"/dashboard" },
-                    { title: "Book", to:"/book" }, 
-                    { title: "Magazine", to:"/magazine" },
+                    { title: " Dashboard", to:"/dashboard", icon:"mdi-view-dashboard"},
+                    { title: " Book", to:"/book", icon: "mdi-notebook" }, 
+                    { title: " Magazine", to:"/magazine", icon: "mdi-book-open-variant"},
                 ],
             };
     },

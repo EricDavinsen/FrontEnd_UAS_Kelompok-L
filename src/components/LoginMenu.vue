@@ -40,11 +40,16 @@
                     <v-btn @click="clear" class="yellow green--text mr-3 mt-3"
                       >Clear
                     </v-btn>
+                  </v-layout>
 
-                    <v-btn @click="regis" class="green white--text mt-3"
+                  <v-layout>
+                    <h3 class="mt-5">Didn't have any account?</h3>
+                  </v-layout>
+
+                  <v-layout>
+                    <v-btn @click="regis" class="green white--text mt-2"
                       >Register
                     </v-btn>
-
                   </v-layout>
                   </v-form>
                 </div>
@@ -137,5 +142,7 @@
 .bg{
   background-image: url('https://media.cntraveler.com/photos/5edf98c162bb344a7a7bab53/16:9/w_2560%2Cc_limit/SistersUptownBooks-NYC-WTJ2W3.jpg');
   height: 100vh!important;
+  background-size: cover;
 }
+
 </style>

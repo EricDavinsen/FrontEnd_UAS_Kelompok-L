@@ -59,5 +59,6 @@
 .bg{
   background-image: url('https://media.cntraveler.com/photos/5edf98c162bb344a7a7bab53/16:9/w_2560%2Cc_limit/SistersUptownBooks-NYC-WTJ2W3.jpg');
   height: 100vh!important;
+  background-size: cover;
 }
 </style>

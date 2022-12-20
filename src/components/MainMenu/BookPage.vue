@@ -1,14 +1,14 @@
 <template>
     <v-main class="Book-lists">
-      <v-card>
+      <v-card color="blue">
         <v-list-item>
           <v-list-item-avatar>
             <img
               src=https://png.pngtree.com/template/20190316/ourmid/pngtree-books-logo-image_79143.jpg alt="John"/>
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title class="headline">Book List</v-list-item-title>
-            <v-list-item-subtitle>You can add,remove,and edit your book list</v-list-item-subtitle>
+            <v-list-item-title class="headline white--text">Book List</v-list-item-title>
+            <v-list-item-subtitle class="white--text">You can add,remove,and edit your book list</v-list-item-subtitle>
           </v-list-item-content>
           <v-spacer></v-spacer>
           <v-btn color="primary" dark @click="dialog = true"> Add Book </v-btn>
