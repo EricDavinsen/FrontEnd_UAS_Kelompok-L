@@ -53,6 +53,7 @@
                     { title: " Dashboard", to:"/dashboard", icon:"mdi-view-dashboard"},
                     { title: " Book", to:"/book", icon: "mdi-notebook" }, 
                     { title: " Magazine", to:"/magazine", icon: "mdi-book-open-variant"},
+                    { title: " Employee", to:"/employee", icon: "mdi-card-account-details-outline"},
                 ],
             };
     },

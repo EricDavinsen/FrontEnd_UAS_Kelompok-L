@@ -36,6 +36,13 @@ const router = new VueRouter({
                 },
 
                 {
+                    path:"/employee",
+                    name:"EmployeePage",
+                    meta: { title: 'Employee' },
+                    component: importComponent("MainMenu/EmployeePage"),
+                },
+
+                {
                     path:"/profil",
                     name:"ProfilPage",
                     meta: { title: 'Profile' },
